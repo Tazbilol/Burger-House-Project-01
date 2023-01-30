@@ -1,0 +1,223 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-family: 'Bebas Neue', cursive;
+font-size: 14px;
+line-height: 1.7em;
+
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Alfa Slab One', cursive;
+}
+img{
+max-width: 100%;
+height: auto;
+}
+a{
+text-decoration: none;
+}
+a:{
+text-decoration: none;
+}
+/*header start*/
+/*main-menu start*/
+.header{
+width: 100%;
+background: url("../images/back.png") center top no-repeat;
+background-size: cover;
+}
+.main-menu .logo{
+margin: 24px 0px 0px;
+}
+.main-menu .text-right{
+font-family: 'Montserrat', sans-serif;
+text-align: right;
+font-size: 14px;
+font-weight: 700;
+margin: -10px 22px 2px 0px;
+color: #3d2514;
+transition: 0.5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+font-size: 18px;
+font-family: 'Bebas Neue', cursive;
+text-transform: uppercase;
+font-weight: 599;
+letter-spacing: 4px;
+margin: 0px 0px 0px 20px;
+color: #3d2514;
+transition: 0.5s;
+}
+.header .col-8{
+margin: 30px 0px 0px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+color: #bf2222;
+}
+.main-menu .text-right:hover{
+color: #bf2222;
+}
+/*main-menu end*/
+.banner{
+width: 100%;
+padding: 0px 0px
+}
+.banner .inner-banner{
+width: 100%;
+margin: 180px 0px 0px;
+}
+.banner .inner-banner h5{
+font-family: 'Bebas Neue', cursive;
+font-size: 22px;
+line-height: 1.2em;
+font-weight: 300;
+color: #3d2514;
+transition: 1s;
+}
+.banner .inner-banner h5 span{
+padding: 10px;
+border: 2px dashed #3d2514;
+display: inline-block;
+margin: 0px 0px 15px;
+letter-spacing: 1px;
+}
+.banner .inner-banner h3{
+font-size:55px;
+line-height: 1.2em;
+font-weight: 300;
+color: #3d2514;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-shadow: 5px 4px #fee8bb;
+}
+.banner .inner-banner h5:hover{
+color: #fff;
+}
+.banner .inner-banner h1{
+font-size: 110px;
+line-height: 1.2em;
+font-weight: 700;
+color: #3d2514;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-shadow: 5px 4px #fee8bb;
+}
+/*header end*/
+/*features start*/
+.features{
+width: 100%;
+padding: 80px 0px;
+}
+.features .card{
+margin: 0px 0px 38px;
+border: 0px;
+}
+.features .card h5{
+font-family: 'Bebas Neue', cursive;
+margin: 20px 0px 0px;
+color: #fff;
+text-shadow: 5px 4px #3d2514;
+line-height: 1.2em;
+font-size:20px;
+font-weight: 300;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.features .card h2{
+font-family: 'Bebas Neue', cursive;
+font-size:36px;
+color: #fff;
+line-height: 1.2em;
+font-weight: 300;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-shadow: 4px 3px #3d2514;
+}
+/*features end*/
+/*choosing start*/
+.choose{
+width: 100%;
+padding: 0px 0px 60px;
+}
+.choose .title{
+width: 100%;
+padding: 0px 0px 40px;
+}
+.choose .title h3{
+font-family: 'Bebas Neue', cursive;
+text-align: center;
+font-size: 24px;
+line-height: 1.2em;
+font-weight: 300;
+margin: 0px 0px 30px;
+letter-spacing: 1px;
+color: #3d2514;
+}
+.choose .title h3 span{
+text-align: center;
+background: #ffc045;
+padding: 5px 10px;
+margin: 0px 0px 10px;
+}
+.choose .title h2{
+	font-size: 36px;
+	font-weight: 400;
+	font-weight: 1.2em;
+	letter-spacing: 1px;
+text-align: center;
+color: #3d2514;
+text-transform: uppercase;
+}
+.choose .title p{
+text-align: center;
+font-size: 16px;
+color: #3d2514;
+line-height: 1.7em;
+font-weight: 300;
+}
+.choose-inner{
+	width: 100%;
+	padding: 20px 20px;
+	text-align: center;
+}
+.choose-inner .img-fluid{
+	width: 100%;
+	height: 269px;
+margin: 0px 0px 20px;
+}
+.choose-inner h4{
+	font-family: 'Bebas Neue', cursive;
+font-size: 30px;
+line-height: 1.2em;
+font-weight: 400;
+margin: 0px 0px 15px;
+letter-spacing: 1px;
+color: #3d2514;
+}
+.choose-inner p{
+font-size: 16px;
+color: #3d2514;
+line-height: 1.7em;
+font-weight: 300;
+}
+.choose-inner .btn-danger{
+text-transform: uppercase;
+border-radius: 0px;
+display: inline-block;
+font-family: 'Alfa Slab One', cursive;
+font-size: 14px;
+padding: 10px 25px;
+background: #bf2222;
+letter-spacing: 2px;
+border: 1px solid #bf2222;
+color: #fff;
+transition: 1s;
+margin: 15px 0px 0px;
+}
+.choose-inner .btn-danger:hover{
+color: #bf2222;
+background: transparent;
+border: 1px solid #bf2222;
+}
